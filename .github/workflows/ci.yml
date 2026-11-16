@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    runs-on: macos-26
+    runs-on: [self-hosted, macOS, ARM64, tatami]
     steps:
       - uses: actions/checkout@v4
 
